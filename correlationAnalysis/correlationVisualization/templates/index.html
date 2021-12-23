@@ -1,0 +1,84 @@
+{% load tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% tailwind_css %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Correlation Visualization</title>
+</head>
+<body class="h-100 text-center text-black bg-slate-100">
+    <h1 class="text-4xl m-4 items-center">Correlation-Analysis Visualization</h1>
+    <form method="POST" action="corr/" class="bg-white rounded-md py-10 px-12 shadow-lg">
+        {% csrf_token %}
+        <p class="m-4">In 2020 Dr. Kathleen Gregory conducted a survey, resulting in the largest known dataset on how researchers 
+            and support professionals discover and use data. A total of 1677 respondents out of 105 countries make up 
+            this dataset, working in a wide variety of disciplinary domains. This web application shows the relationship 
+            between the disciplinary domains of the respondents and the data types they usually need and how they use those data.
+            </br></br>The relationship will be shown with the help of a heatmap. 
+            A heatmap is a data visualization technique, where in this case the correlation between the variables 
+            is shown in a two dimensional grid, where a more saturated cell represents a higher correlation.</p>
+    </br>
+        <h1 class="text-center text-xl">Select a disciplinary domain:</h1>
+            <svg class="w-2 h-2 absolute top-0 right-0 m-4 pointer-events-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 232"><path d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z" fill="#648299" fill-rule="nonzero"/></svg>
+          <select class="border border-gray-300 rounded-full text-gray-600 h-10 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none" id="domain" name="domain">
+            <option value="disc_agricul">Agriculture</option>
+            <option value="disc_artshuman">Arts and Humanities</option>
+            <option value="disc_astronom">Astronomy</option>
+            <option value="disc_biochem">Biochemistry, Genetics</option>
+            <option value="disc_biological">Biology</option>
+            <option value="disc_busin">Business</option>
+            <option value="disc_chemeng">Chemical Engineering</option>
+            <option value="disc_chem">Chemistry</option>
+            <option value="disc_compsci">Computer Science, IT</option>
+            <option value="disc_decisionsci">Decision Sciences</option>
+            <option value="disc_dentist">Dentistry</option>
+            <option value="disc_earthplanet">Earth and Planetary Sciences</option>
+            <option value="disc_econ">Economics, Finance</option>
+            <option value="disc_energy">Energy</option>
+            <option value="disc_engtech">Engineering and Technology</option>
+            <option value="disc_environ">Environmental Sciences</option>
+            <option value="disc_healthprof">Health Professions</option>
+            <option value="disc_immun">Immunology, Microbiology</option>
+            <option value="disc_matlsci">Materials Science</option>
+            <option value="disc_math">Mathematics</option>
+            <option value="disc_med">Medicine</option>
+            <option value="disc_multi">Multidsciplinary</option>
+            <option value="disc_neuro">Neuroscience</option>
+            <option value="disc_pharma">Pharmalogy and Toxicology</option>
+            <option value="disc_nurs">Nursing</option>
+            <option value="disc_physics">Physics</option>
+            <option value="disc_psych">Psychology</option>
+            <option value="disc_vet">Veterinary</option>
+            <option value="disc_infosci">Information Sciences</option>
+            <option value="disc_other">Other</option>
+            <option value="compsci_engtech">Computer Science, IT - Engineering Technologies</option>
+            <option value="biochem_bio">Biochemistry - Biological Sciences</option>
+            <option value="environ_bio">Environmental Sciences - Biological Sciences</option>
+            <option value="med_health">Medicine - Health Professions</option>
+        </select>
+        
+        </br>
+        </br>
+    </br>
+        <p>Together with the heatmap, a table with the top correlations will be shown. Please select how many rows you want to see below.</p>
+    </br>
+        <h1 class="text-center text-xl">Select number of rows:</h1>
+        <svg class="w-2 h-2 absolute top-0 right-0 m-4 pointer-events-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 232"><path d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z" fill="#648299" fill-rule="nonzero"/></svg>
+        <select class="border border-gray-300 rounded-full text-gray-600 h-10 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none" id="corr" name="corr">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+        </select>
+        <button type="submit" value="submit" class="bg-blue-500 hover:bg-blue-600 focus:outline-none rounded-md px-6 py-3 mx-auto block text-white transition duration-500 ease-in-out mt-8">Create Heatmap</button>
+      </form>
+</body>
+</html>
