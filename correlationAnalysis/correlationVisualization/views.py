@@ -23,3 +23,6 @@ def post(request):
     print(hover.getDomainName())
     #heatmap.get_top_abs_correlations(corr)
     return render(request, 'resultHover.html', context=context_dict)
+
+def legend(request):
+    return render(request, 'legend.html', context=None)

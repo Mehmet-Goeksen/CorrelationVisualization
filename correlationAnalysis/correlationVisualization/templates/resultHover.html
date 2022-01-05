@@ -27,14 +27,13 @@
 <!-- https://www.d3-graph-gallery.com/graph/heatmap_tooltip.html -->
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
-
+<a href="{% url 'CorrelationVisualization:legend' %}" style="color: rgb(59, 130, 246)">Legend</a> for heatmap variables
 <!-- Create a div where the graph will take place -->
 <div id="heatmap" class="flex items-center justify-center bg-white rounded-md py-10 px-12 shadow-lg"></div>
-
 <script>
 
 // set the dimensions and margins of the graph
-var margin = {top: 10, right: 10, bottom: 150, left: 150},
+var margin = {top: 10, right: 10, bottom: 200, left: 200},
   width = 800 - margin.left - margin.right,
   height = 750 - margin.top - margin.bottom;
 
@@ -60,6 +59,7 @@ svg.append("g")
   .call(d3.axisBottom(x))
   .selectAll("text")  
   .style("text-anchor", "end")
+  .style("font-size", 14)
   .attr("dx", "-.8em")
   .attr("dy", ".15em")
   .attr("transform", "rotate(-65)");
@@ -71,6 +71,7 @@ var y = d3.scaleBand()
   .domain(myGroups)
   .padding(0.01);
 svg.append("g")
+  .style("font-size", 14)
   .call(d3.axisLeft(y));
 
 // Build color scale
@@ -125,11 +126,42 @@ d3.csv("{% static '/correlationVisualization/files/correlations.csv' %}", functi
 
     <div class="flex items-center justify-center mt-8 bg-white rounded-md py-10 px-12 shadow-lg">
         <div class="col-span-12">
-          <h2 class="text-2xl m-2 items-center">Top correlations</h1>
+          <h2 class="text-2xl m-2 items-center">Top correlations</h2>
+
+          <table class="table text-gray-400 space-y-6 text-sm m-12">
+            <thead class="bg-blue-500 text-white mb-12">
+              <tr>
+                <th class="p-3">Corr Value</th>
+                <th class="p-3">Interpretation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="bg-blue-200 lg:text-black">
+                <td class="p-3 font-medium capitalize">0 - 0.29</td>
+                <td class="p-3 font-medium capitalize">No correlation</td>
+              </tr>
+              <tr class="bg-blue-200 lg:text-black">
+                <td class="p-3 font-medium capitalize">0.3 - 0.49</td>
+                <td class="p-3 font-medium capitalize">Weak correlation</td>
+              </tr>
+              <tr class="bg-blue-200 lg:text-black">
+                <td class="p-3 font-medium capitalize">0.5 - 0.69</td>
+                <td class="p-3 font-medium capitalize">Moderate correlation</td>
+              </tr>
+              <tr class="bg-blue-200 lg:text-black">
+                <td class="p-3 font-medium capitalize">0.7 - 0.89</td>
+                <td class="p-3 font-medium capitalize">High correlation</td>
+              </tr>
+              <tr class="bg-blue-200 lg:text-black">
+                <td class="p-3 font-medium capitalize">0.9 - 1</td>
+                <td class="p-3 font-medium capitalize">Very high correlation</td>
+              </tr>
+            </tbody>
+          </table>
             <table class="table text-gray-400 space-y-6 text-sm m-12">
               <thead class="bg-blue-500 text-white mb-12">
                 <tr>
-                  <th class="p-3">Data</th>
+                  <th class="p-3">Variables</th>
                   <th class="p-3">Value</th>
                 </tr>
               </thead>
@@ -138,7 +170,7 @@ d3.csv("{% static '/correlationVisualization/files/correlations.csv' %}", functi
                 <tr class="bg-blue-200 lg:text-black">
                     <td class="p-3 font-medium capitalize">
                     {% for key in keys %}
-                        {{ key }} - 
+                        {{ key }} </br>
                     {% endfor %}
                     </td>
                     <td class="p-3">{{ value }}</td>

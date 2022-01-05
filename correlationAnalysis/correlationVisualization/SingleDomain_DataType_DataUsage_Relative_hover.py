@@ -26,6 +26,7 @@ def plotHeatmap(domain, amount):
     global df_domain
     # map domain to correct domain name
     if domain == "disc_agricul": domainName = "Agriculture"
+    elif domain == "disc_astronom": domainName = "Astronomy"
     elif domain == "disc_artshuman": domainName = "Arts and Humanities"
     elif domain == "disc_biochem": domainName = "Biochemistry, Genetics, Molecular Biology"
     elif domain == "disc_biological": domainName = "Biological Sciences"
