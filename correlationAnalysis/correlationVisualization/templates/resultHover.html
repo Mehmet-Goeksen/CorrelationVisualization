@@ -21,17 +21,15 @@
   </head>
   <body class="h-100 text-center text-black bg-white">
     <h1 class="text-4xl m-4 items-center">Correlation Analysis Result</h1>
-    <h2 class="text-2xl m-2 items-center">Heatmap of correlation between types of data uses and data types</h1>
-    <h2 class="text-xl m-2 items-center">Domain: {{ domain }}</h1>
-    <h2 class="text-xl m-2 items-center">Sample Size: {{ sampleSize }}</h1>
+    <h2 class="text-2xl m-2 items-center">{{ domain }}</h1>
+    <h2 class="text-2xl m-2 items-center">Sample Size: {{ sampleSize }}</h1>
 
 <!-- https://www.d3-graph-gallery.com/graph/heatmap_tooltip.html -->
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
-<h3>Feel free to hover over the heatmap and the axes for more details</h3>
+<a href="{% url 'CorrelationVisualization:legend' %}" style="color: rgb(59, 130, 246)">Legend</a> for heatmap variables
 <!-- Create a div where the graph will take place -->
-<div id="heatmap" class="flex items-center justify-center bg-white rounded-md py-10 px-12 shadow-lg">
-</div>
+<div id="heatmap" class="flex items-center justify-center bg-white rounded-md py-10 px-12 shadow-lg"></div>
 <script>
 
 // set the dimensions and margins of the graph
@@ -49,89 +47,32 @@ var svg = d3.select("#heatmap")
         "translate(" + margin.left + "," + margin.top + ")");
 
 // Labels of row and columns
-var labels = ["Observational/Empirical (Type)", "Experimental (Type)", "Simulation (Type)", "Derived/Compiled (Type)", "Other Types", "Basis for new study", "Calibration", "Benchmarking", "Verification", "Input", "Generating new ideas", "Teaching", "Prepare new project/proposal", "Experimental Use", "Identifying trends/predictions", "Comparison", "Summarizations", "Integrate with other data", "Other Uses"]
-labels = labels.reverse()
-var axisDescriptions = {"Observational/Empirical (Type)":"Observational or empirical data types", "Experimental (Type)":"Experimental data types", "Simulation (Type)":"Simulation data types", "Derived/Compiled (Type)":"Derived or compiled data type", "Other Types":"Other data types", "Basis for new study":"Use data as the basis for a new study",
-                        "Calibration":"Use data to calibrate instruments or models", "Benchmarking":"Use data for benchmarking", "Verification":"Use data to verify own data", "Input":"Use data as model, algorithm or system inputs","Generating new ideas":"Use data to generate new ideas",
-                        "Teaching":"Use data for teaching/training", "Prepare new project/proposal":"Use data to prepare for new project or proposal", "Experimental Use":"Use data to experiment with new methods and techniques", "Identifying trends/predictions":"Use data to identify trends, make predictions",
-                        "Comparison":"Use data to compare multiple datasets", "Summarizations":"Use data to create summaries, visualizations, analysis tools", "Integrate with other data":"Use data to integrate with other data", "Other Uses":"Use data for other uses"};
-//axisDescriptions = axisDescriptions.reverse()
-
-// create a tooltip
-var tooltip = d3.select("#heatmap")
-  .append("div")
-  .style("position", "absolute")
-  .style("opacity", 0)
-  .attr("class", "tooltip")
-  .style("background-color", "white")
-  //.style("border", "solid")
-  .style("border-width", "2px")
-  //.style("border-radius", "2px")
-  .style("padding", "5px")
-
-
-
-// Three function that change the tooltip when user hover / move / leave a cell
-  var mouseover = function(d) {
-    tooltip.style("opacity", 1)
-  }
-
-  var mousemove = function(d) {
-    tooltip
-      .html(d.Group1 + " - " + d.Group2 + ": " + d.Value)
-      .style("left", (d3.event.x+10) + "px")
-      .style("top", (d3.event.y+10) + "px")
-  }
-  var mouseleave = function(d) {
-    tooltip.style("opacity", 0)
-  }
-
-
+var myGroups = ["Observational/Empirical (Type)", "Experimental (Type)", "Simulation (Type)", "Derived/Compiled (Type)", "Other Types", "Basis for new study", "Calibration", "Benchmarking", "Verification", "Input", "Generating new ideas", "Teaching", "Prepare new project/proposal", "Experimental Use", "Identifying trends/predictions", "Comparison", "Summarizations", "Integrate with other data", "Other Uses"]
 
 // Build X scales and axis:
-var xAxis = d3.scaleBand()
+var x = d3.scaleBand()
   .range([ 0, width ])
-  //.domain(axisDescriptions.map(function(d) { return d.key}))
-  .domain(labels)
+  .domain(myGroups)
   .padding(0.01);
-
 svg.append("g")
   .attr("transform", "translate(0," + height + ")")
-  .call(d3.axisBottom(xAxis))
+  .call(d3.axisBottom(x))
   .selectAll("text")  
   .style("text-anchor", "end")
-  .style("font-size", 13)
+  .style("font-size", 14)
   .attr("dx", "-.8em")
   .attr("dy", ".15em")
   .attr("transform", "rotate(-65)");
+  
 
 // Build Y scales and axis:
-var yAxis = d3.scaleBand()
+var y = d3.scaleBand()
   .range([ height, 0 ])
-  //.domain(axisDescriptions.map(function(d) { return d.key}))
-  .domain(labels)
+  .domain(myGroups)
   .padding(0.01);
-
-ax = svg.append("g")
-  .attr("class", "yAxis")
-  .call(d3.axisLeft(yAxis))
-  .selectAll("text")  
-  .style("text-anchor", "end")
-  .style("font-size", 13)
-  .attr("dx", "-.8em")
-  .attr("dy", ".15em")
-
-d3.selectAll(".tick>text")
-.on("mousemove", mouseover)
-.on("mouseover", function(t) {
-    tooltip
-      .html(axisDescriptions[this.innerHTML])
-      .style("left", (d3.event.x+10) + "px")
-      .style("top", (d3.event.y+10) + "px")
-      .style("position", "absolute")
-  })
-.on("mouseleave", mouseleave) 
-
+svg.append("g")
+  .style("font-size", 14)
+  .call(d3.axisLeft(y));
 
 // Build color scale
 var myColor = d3.scaleLinear()
@@ -141,15 +82,40 @@ var myColor = d3.scaleLinear()
 //Read the data
 d3.csv("{% static '/correlationVisualization/files/correlations.csv' %}", function(data) {
 
+  // create a tooltip
+  var tooltip = d3.select("#heatmap")
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "2px")
+    .style("padding", "5px")
+
+  // Three function that change the tooltip when user hover / move / leave a cell
+  var mouseover = function(d) {
+    tooltip.style("opacity", 1)
+  }
+  var mousemove = function(d) {
+    tooltip
+      .html(d.Group1 + " - " + d.Group2 + ": " + d.Value)
+      .style("left", (d3.mouse(this)[0]+350) + "px")
+      .style("top", (d3.mouse(this)[1]+150) + "px")
+  }
+  var mouseleave = function(d) {
+    tooltip.style("opacity", 0)
+  }
+
   // add the squares
   svg.selectAll()
     .data(data, function(d) {return d.Group1+':'+d.Group2;})
     .enter()
     .append("rect")
-      .attr("x", function(d) { return xAxis(d.Group1) })
-      .attr("y", function(d) { return yAxis(d.Group2) })
-      .attr("width", xAxis.bandwidth() )
-      .attr("height", yAxis.bandwidth() )
+      .attr("x", function(d) { return x(d.Group1) })
+      .attr("y", function(d) { return y(d.Group2) })
+      .attr("width", x.bandwidth() )
+      .attr("height", y.bandwidth() )
       .style("fill", function(d) { return myColor(d.Value)} )
     .on("mouseover", mouseover)
     .on("mousemove", mousemove)
