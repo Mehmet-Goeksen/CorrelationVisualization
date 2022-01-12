@@ -1,344 +1,344 @@
 ,Group1,Group2,Value
 0,Observational/Empirical (Type),Observational/Empirical (Type),1.0
-1,Observational/Empirical (Type),Experimental (Type),0.53
-2,Observational/Empirical (Type),Simulation (Type),0.45
-3,Observational/Empirical (Type),Derived/Compiled (Type),0.11
-4,Observational/Empirical (Type),Other Types,
-5,Observational/Empirical (Type),Basis for new study,0.25
-6,Observational/Empirical (Type),Calibration,0.48
-7,Observational/Empirical (Type),Benchmarking,0.31
-8,Observational/Empirical (Type),Verification,0.51
-9,Observational/Empirical (Type),Input,0.24
-10,Observational/Empirical (Type),Generating new ideas,0.11
-11,Observational/Empirical (Type),Teaching,0.14
-12,Observational/Empirical (Type),Prepare new project/proposal,0.06
-13,Observational/Empirical (Type),Experimental Use,0.42
-14,Observational/Empirical (Type),Identifying trends/predictions,0.39
-15,Observational/Empirical (Type),Comparison,0.07
-16,Observational/Empirical (Type),Summarizations,0.15
-17,Observational/Empirical (Type),Integrate with other data,0.09
+1,Observational/Empirical (Type),Experimental (Type),0.21
+2,Observational/Empirical (Type),Simulation (Type),0.09
+3,Observational/Empirical (Type),Derived/Compiled (Type),0.13
+4,Observational/Empirical (Type),Other Types,0.19
+5,Observational/Empirical (Type),Basis for new study,0.08
+6,Observational/Empirical (Type),Calibration,0.13
+7,Observational/Empirical (Type),Benchmarking,0.17
+8,Observational/Empirical (Type),Verification,0.43
+9,Observational/Empirical (Type),Input,0.08
+10,Observational/Empirical (Type),Generating new ideas,0.36
+11,Observational/Empirical (Type),Teaching,0.2
+12,Observational/Empirical (Type),Prepare new project/proposal,0.28
+13,Observational/Empirical (Type),Experimental Use,0.12
+14,Observational/Empirical (Type),Identifying trends/predictions,0.22
+15,Observational/Empirical (Type),Comparison,0.2
+16,Observational/Empirical (Type),Summarizations,0.18
+17,Observational/Empirical (Type),Integrate with other data,0.55
 18,Observational/Empirical (Type),Other Uses,
-19,Experimental (Type),Observational/Empirical (Type),0.53
+19,Experimental (Type),Observational/Empirical (Type),0.21
 20,Experimental (Type),Experimental (Type),1.0
-21,Experimental (Type),Simulation (Type),0.37
-22,Experimental (Type),Derived/Compiled (Type),0.25
-23,Experimental (Type),Other Types,
-24,Experimental (Type),Basis for new study,0.43
-25,Experimental (Type),Calibration,0.17
-26,Experimental (Type),Benchmarking,0.23
-27,Experimental (Type),Verification,0.75
-28,Experimental (Type),Input,0.58
-29,Experimental (Type),Generating new ideas,0.5
-30,Experimental (Type),Teaching,0.09
-31,Experimental (Type),Prepare new project/proposal,0.25
-32,Experimental (Type),Experimental Use,0.11
-33,Experimental (Type),Identifying trends/predictions,0.71
-34,Experimental (Type),Comparison,0.1
-35,Experimental (Type),Summarizations,0.3
-36,Experimental (Type),Integrate with other data,0.2
+21,Experimental (Type),Simulation (Type),0.02
+22,Experimental (Type),Derived/Compiled (Type),0.22
+23,Experimental (Type),Other Types,0.26
+24,Experimental (Type),Basis for new study,0.15
+25,Experimental (Type),Calibration,0.08
+26,Experimental (Type),Benchmarking,0.1
+27,Experimental (Type),Verification,0.22
+28,Experimental (Type),Input,0.09
+29,Experimental (Type),Generating new ideas,0.01
+30,Experimental (Type),Teaching,0.03
+31,Experimental (Type),Prepare new project/proposal,0.14
+32,Experimental (Type),Experimental Use,0.03
+33,Experimental (Type),Identifying trends/predictions,0.16
+34,Experimental (Type),Comparison,0.05
+35,Experimental (Type),Summarizations,0.16
+36,Experimental (Type),Integrate with other data,0.12
 37,Experimental (Type),Other Uses,
-38,Simulation (Type),Observational/Empirical (Type),0.45
-39,Simulation (Type),Experimental (Type),0.37
+38,Simulation (Type),Observational/Empirical (Type),0.09
+39,Simulation (Type),Experimental (Type),0.02
 40,Simulation (Type),Simulation (Type),1.0
-41,Simulation (Type),Derived/Compiled (Type),0.02
-42,Simulation (Type),Other Types,
-43,Simulation (Type),Basis for new study,0.38
-44,Simulation (Type),Calibration,0.36
-45,Simulation (Type),Benchmarking,0.24
-46,Simulation (Type),Verification,0.02
-47,Simulation (Type),Input,0.6
-48,Simulation (Type),Generating new ideas,0.05
-49,Simulation (Type),Teaching,0.47
-50,Simulation (Type),Prepare new project/proposal,0.41
-51,Simulation (Type),Experimental Use,0.39
-52,Simulation (Type),Identifying trends/predictions,0.41
-53,Simulation (Type),Comparison,0.04
-54,Simulation (Type),Summarizations,0.04
-55,Simulation (Type),Integrate with other data,0.08
+41,Simulation (Type),Derived/Compiled (Type),0.4
+42,Simulation (Type),Other Types,0.13
+43,Simulation (Type),Basis for new study,0.1
+44,Simulation (Type),Calibration,0.2
+45,Simulation (Type),Benchmarking,0.05
+46,Simulation (Type),Verification,0.05
+47,Simulation (Type),Input,0.31
+48,Simulation (Type),Generating new ideas,0.12
+49,Simulation (Type),Teaching,0.19
+50,Simulation (Type),Prepare new project/proposal,0.14
+51,Simulation (Type),Experimental Use,0.16
+52,Simulation (Type),Identifying trends/predictions,0.1
+53,Simulation (Type),Comparison,0.23
+54,Simulation (Type),Summarizations,0.11
+55,Simulation (Type),Integrate with other data,0.17
 56,Simulation (Type),Other Uses,
-57,Derived/Compiled (Type),Observational/Empirical (Type),0.11
-58,Derived/Compiled (Type),Experimental (Type),0.25
-59,Derived/Compiled (Type),Simulation (Type),0.02
+57,Derived/Compiled (Type),Observational/Empirical (Type),0.13
+58,Derived/Compiled (Type),Experimental (Type),0.22
+59,Derived/Compiled (Type),Simulation (Type),0.4
 60,Derived/Compiled (Type),Derived/Compiled (Type),1.0
-61,Derived/Compiled (Type),Other Types,
-62,Derived/Compiled (Type),Basis for new study,0.07
-63,Derived/Compiled (Type),Calibration,0.01
-64,Derived/Compiled (Type),Benchmarking,0.01
+61,Derived/Compiled (Type),Other Types,0.11
+62,Derived/Compiled (Type),Basis for new study,0.19
+63,Derived/Compiled (Type),Calibration,0.19
+64,Derived/Compiled (Type),Benchmarking,0.16
 65,Derived/Compiled (Type),Verification,0.2
-66,Derived/Compiled (Type),Input,0.02
-67,Derived/Compiled (Type),Generating new ideas,0.01
-68,Derived/Compiled (Type),Teaching,0.3
-69,Derived/Compiled (Type),Prepare new project/proposal,0.05
-70,Derived/Compiled (Type),Experimental Use,0.19
-71,Derived/Compiled (Type),Identifying trends/predictions,0.27
-72,Derived/Compiled (Type),Comparison,0.35
-73,Derived/Compiled (Type),Summarizations,0.33
-74,Derived/Compiled (Type),Integrate with other data,0.78
+66,Derived/Compiled (Type),Input,0.0
+67,Derived/Compiled (Type),Generating new ideas,0.1
+68,Derived/Compiled (Type),Teaching,0.21
+69,Derived/Compiled (Type),Prepare new project/proposal,0.12
+70,Derived/Compiled (Type),Experimental Use,0.11
+71,Derived/Compiled (Type),Identifying trends/predictions,0.04
+72,Derived/Compiled (Type),Comparison,0.07
+73,Derived/Compiled (Type),Summarizations,0.26
+74,Derived/Compiled (Type),Integrate with other data,0.02
 75,Derived/Compiled (Type),Other Uses,
-76,Other Types,Observational/Empirical (Type),
-77,Other Types,Experimental (Type),
-78,Other Types,Simulation (Type),
-79,Other Types,Derived/Compiled (Type),
-80,Other Types,Other Types,
-81,Other Types,Basis for new study,
-82,Other Types,Calibration,
-83,Other Types,Benchmarking,
-84,Other Types,Verification,
-85,Other Types,Input,
-86,Other Types,Generating new ideas,
-87,Other Types,Teaching,
-88,Other Types,Prepare new project/proposal,
-89,Other Types,Experimental Use,
-90,Other Types,Identifying trends/predictions,
-91,Other Types,Comparison,
-92,Other Types,Summarizations,
-93,Other Types,Integrate with other data,
+76,Other Types,Observational/Empirical (Type),0.19
+77,Other Types,Experimental (Type),0.26
+78,Other Types,Simulation (Type),0.13
+79,Other Types,Derived/Compiled (Type),0.11
+80,Other Types,Other Types,1.0
+81,Other Types,Basis for new study,0.15
+82,Other Types,Calibration,0.09
+83,Other Types,Benchmarking,0.09
+84,Other Types,Verification,0.29
+85,Other Types,Input,0.1
+86,Other Types,Generating new ideas,0.09
+87,Other Types,Teaching,0.17
+88,Other Types,Prepare new project/proposal,0.0
+89,Other Types,Experimental Use,0.12
+90,Other Types,Identifying trends/predictions,0.08
+91,Other Types,Comparison,0.03
+92,Other Types,Summarizations,0.13
+93,Other Types,Integrate with other data,0.13
 94,Other Types,Other Uses,
-95,Basis for new study,Observational/Empirical (Type),0.25
-96,Basis for new study,Experimental (Type),0.43
-97,Basis for new study,Simulation (Type),0.38
-98,Basis for new study,Derived/Compiled (Type),0.07
-99,Basis for new study,Other Types,
+95,Basis for new study,Observational/Empirical (Type),0.08
+96,Basis for new study,Experimental (Type),0.15
+97,Basis for new study,Simulation (Type),0.1
+98,Basis for new study,Derived/Compiled (Type),0.19
+99,Basis for new study,Other Types,0.15
 100,Basis for new study,Basis for new study,1.0
-101,Basis for new study,Calibration,0.34
-102,Basis for new study,Benchmarking,0.23
-103,Basis for new study,Verification,0.18
-104,Basis for new study,Input,0.2
-105,Basis for new study,Generating new ideas,0.34
-106,Basis for new study,Teaching,0.12
-107,Basis for new study,Prepare new project/proposal,0.02
-108,Basis for new study,Experimental Use,0.01
-109,Basis for new study,Identifying trends/predictions,0.34
-110,Basis for new study,Comparison,0.07
-111,Basis for new study,Summarizations,0.13
-112,Basis for new study,Integrate with other data,0.06
+101,Basis for new study,Calibration,0.09
+102,Basis for new study,Benchmarking,0.08
+103,Basis for new study,Verification,0.06
+104,Basis for new study,Input,0.21
+105,Basis for new study,Generating new ideas,0.28
+106,Basis for new study,Teaching,0.1
+107,Basis for new study,Prepare new project/proposal,0.03
+108,Basis for new study,Experimental Use,0.14
+109,Basis for new study,Identifying trends/predictions,0.16
+110,Basis for new study,Comparison,0.23
+111,Basis for new study,Summarizations,0.09
+112,Basis for new study,Integrate with other data,0.33
 113,Basis for new study,Other Uses,
-114,Calibration,Observational/Empirical (Type),0.48
-115,Calibration,Experimental (Type),0.17
-116,Calibration,Simulation (Type),0.36
-117,Calibration,Derived/Compiled (Type),0.01
-118,Calibration,Other Types,
-119,Calibration,Basis for new study,0.34
+114,Calibration,Observational/Empirical (Type),0.13
+115,Calibration,Experimental (Type),0.08
+116,Calibration,Simulation (Type),0.2
+117,Calibration,Derived/Compiled (Type),0.19
+118,Calibration,Other Types,0.09
+119,Calibration,Basis for new study,0.09
 120,Calibration,Calibration,1.0
-121,Calibration,Benchmarking,0.24
-122,Calibration,Verification,0.31
-123,Calibration,Input,0.22
-124,Calibration,Generating new ideas,0.09
-125,Calibration,Teaching,0.08
-126,Calibration,Prepare new project/proposal,0.26
-127,Calibration,Experimental Use,0.12
-128,Calibration,Identifying trends/predictions,0.15
-129,Calibration,Comparison,0.05
-130,Calibration,Summarizations,0.26
-131,Calibration,Integrate with other data,0.09
+121,Calibration,Benchmarking,0.25
+122,Calibration,Verification,0.2
+123,Calibration,Input,0.11
+124,Calibration,Generating new ideas,0.26
+125,Calibration,Teaching,0.09
+126,Calibration,Prepare new project/proposal,0.04
+127,Calibration,Experimental Use,0.21
+128,Calibration,Identifying trends/predictions,0.19
+129,Calibration,Comparison,0.1
+130,Calibration,Summarizations,0.04
+131,Calibration,Integrate with other data,0.13
 132,Calibration,Other Uses,
-133,Benchmarking,Observational/Empirical (Type),0.31
-134,Benchmarking,Experimental (Type),0.23
-135,Benchmarking,Simulation (Type),0.24
-136,Benchmarking,Derived/Compiled (Type),0.01
-137,Benchmarking,Other Types,
-138,Benchmarking,Basis for new study,0.23
-139,Benchmarking,Calibration,0.24
+133,Benchmarking,Observational/Empirical (Type),0.17
+134,Benchmarking,Experimental (Type),0.1
+135,Benchmarking,Simulation (Type),0.05
+136,Benchmarking,Derived/Compiled (Type),0.16
+137,Benchmarking,Other Types,0.09
+138,Benchmarking,Basis for new study,0.08
+139,Benchmarking,Calibration,0.25
 140,Benchmarking,Benchmarking,1.0
-141,Benchmarking,Verification,0.26
-142,Benchmarking,Input,0.23
-143,Benchmarking,Generating new ideas,0.37
-144,Benchmarking,Teaching,0.52
-145,Benchmarking,Prepare new project/proposal,0.23
-146,Benchmarking,Experimental Use,0.09
-147,Benchmarking,Identifying trends/predictions,0.16
-148,Benchmarking,Comparison,0.23
-149,Benchmarking,Summarizations,0.13
-150,Benchmarking,Integrate with other data,0.09
+141,Benchmarking,Verification,0.18
+142,Benchmarking,Input,0.0
+143,Benchmarking,Generating new ideas,0.18
+144,Benchmarking,Teaching,0.31
+145,Benchmarking,Prepare new project/proposal,0.17
+146,Benchmarking,Experimental Use,0.07
+147,Benchmarking,Identifying trends/predictions,0.11
+148,Benchmarking,Comparison,0.09
+149,Benchmarking,Summarizations,0.03
+150,Benchmarking,Integrate with other data,0.17
 151,Benchmarking,Other Uses,
-152,Verification,Observational/Empirical (Type),0.51
-153,Verification,Experimental (Type),0.75
-154,Verification,Simulation (Type),0.02
+152,Verification,Observational/Empirical (Type),0.43
+153,Verification,Experimental (Type),0.22
+154,Verification,Simulation (Type),0.05
 155,Verification,Derived/Compiled (Type),0.2
-156,Verification,Other Types,
-157,Verification,Basis for new study,0.18
-158,Verification,Calibration,0.31
-159,Verification,Benchmarking,0.26
+156,Verification,Other Types,0.29
+157,Verification,Basis for new study,0.06
+158,Verification,Calibration,0.2
+159,Verification,Benchmarking,0.18
 160,Verification,Verification,1.0
-161,Verification,Input,0.15
-162,Verification,Generating new ideas,0.32
-163,Verification,Teaching,0.17
-164,Verification,Prepare new project/proposal,0.32
-165,Verification,Experimental Use,0.03
-166,Verification,Identifying trends/predictions,0.33
-167,Verification,Comparison,0.39
-168,Verification,Summarizations,0.51
-169,Verification,Integrate with other data,0.15
+161,Verification,Input,0.1
+162,Verification,Generating new ideas,0.12
+163,Verification,Teaching,0.06
+164,Verification,Prepare new project/proposal,0.18
+165,Verification,Experimental Use,0.16
+166,Verification,Identifying trends/predictions,0.03
+167,Verification,Comparison,0.25
+168,Verification,Summarizations,0.12
+169,Verification,Integrate with other data,0.28
 170,Verification,Other Uses,
-171,Input,Observational/Empirical (Type),0.24
-172,Input,Experimental (Type),0.58
-173,Input,Simulation (Type),0.6
-174,Input,Derived/Compiled (Type),0.02
-175,Input,Other Types,
-176,Input,Basis for new study,0.2
-177,Input,Calibration,0.22
-178,Input,Benchmarking,0.23
-179,Input,Verification,0.15
+171,Input,Observational/Empirical (Type),0.08
+172,Input,Experimental (Type),0.09
+173,Input,Simulation (Type),0.31
+174,Input,Derived/Compiled (Type),0.0
+175,Input,Other Types,0.1
+176,Input,Basis for new study,0.21
+177,Input,Calibration,0.11
+178,Input,Benchmarking,0.0
+179,Input,Verification,0.1
 180,Input,Input,1.0
-181,Input,Generating new ideas,0.33
-182,Input,Teaching,0.33
-183,Input,Prepare new project/proposal,0.21
-184,Input,Experimental Use,0.27
-185,Input,Identifying trends/predictions,0.63
+181,Input,Generating new ideas,0.34
+182,Input,Teaching,0.11
+183,Input,Prepare new project/proposal,0.04
+184,Input,Experimental Use,0.01
+185,Input,Identifying trends/predictions,0.15
 186,Input,Comparison,0.05
 187,Input,Summarizations,0.14
-188,Input,Integrate with other data,0.07
+188,Input,Integrate with other data,0.25
 189,Input,Other Uses,
-190,Generating new ideas,Observational/Empirical (Type),0.11
-191,Generating new ideas,Experimental (Type),0.5
-192,Generating new ideas,Simulation (Type),0.05
-193,Generating new ideas,Derived/Compiled (Type),0.01
-194,Generating new ideas,Other Types,
-195,Generating new ideas,Basis for new study,0.34
-196,Generating new ideas,Calibration,0.09
-197,Generating new ideas,Benchmarking,0.37
-198,Generating new ideas,Verification,0.32
-199,Generating new ideas,Input,0.33
+190,Generating new ideas,Observational/Empirical (Type),0.36
+191,Generating new ideas,Experimental (Type),0.01
+192,Generating new ideas,Simulation (Type),0.12
+193,Generating new ideas,Derived/Compiled (Type),0.1
+194,Generating new ideas,Other Types,0.09
+195,Generating new ideas,Basis for new study,0.28
+196,Generating new ideas,Calibration,0.26
+197,Generating new ideas,Benchmarking,0.18
+198,Generating new ideas,Verification,0.12
+199,Generating new ideas,Input,0.34
 200,Generating new ideas,Generating new ideas,1.0
-201,Generating new ideas,Teaching,0.35
-202,Generating new ideas,Prepare new project/proposal,0.3
-203,Generating new ideas,Experimental Use,0.47
-204,Generating new ideas,Identifying trends/predictions,0.49
-205,Generating new ideas,Comparison,0.26
-206,Generating new ideas,Summarizations,0.09
-207,Generating new ideas,Integrate with other data,0.0
+201,Generating new ideas,Teaching,0.03
+202,Generating new ideas,Prepare new project/proposal,0.03
+203,Generating new ideas,Experimental Use,0.01
+204,Generating new ideas,Identifying trends/predictions,0.05
+205,Generating new ideas,Comparison,0.08
+206,Generating new ideas,Summarizations,0.02
+207,Generating new ideas,Integrate with other data,0.24
 208,Generating new ideas,Other Uses,
-209,Teaching,Observational/Empirical (Type),0.14
-210,Teaching,Experimental (Type),0.09
-211,Teaching,Simulation (Type),0.47
-212,Teaching,Derived/Compiled (Type),0.3
-213,Teaching,Other Types,
-214,Teaching,Basis for new study,0.12
-215,Teaching,Calibration,0.08
-216,Teaching,Benchmarking,0.52
-217,Teaching,Verification,0.17
-218,Teaching,Input,0.33
-219,Teaching,Generating new ideas,0.35
+209,Teaching,Observational/Empirical (Type),0.2
+210,Teaching,Experimental (Type),0.03
+211,Teaching,Simulation (Type),0.19
+212,Teaching,Derived/Compiled (Type),0.21
+213,Teaching,Other Types,0.17
+214,Teaching,Basis for new study,0.1
+215,Teaching,Calibration,0.09
+216,Teaching,Benchmarking,0.31
+217,Teaching,Verification,0.06
+218,Teaching,Input,0.11
+219,Teaching,Generating new ideas,0.03
 220,Teaching,Teaching,1.0
-221,Teaching,Prepare new project/proposal,0.02
-222,Teaching,Experimental Use,0.25
-223,Teaching,Identifying trends/predictions,0.05
-224,Teaching,Comparison,0.08
-225,Teaching,Summarizations,0.18
-226,Teaching,Integrate with other data,0.19
+221,Teaching,Prepare new project/proposal,0.14
+222,Teaching,Experimental Use,0.13
+223,Teaching,Identifying trends/predictions,0.27
+224,Teaching,Comparison,0.09
+225,Teaching,Summarizations,0.04
+226,Teaching,Integrate with other data,0.29
 227,Teaching,Other Uses,
-228,Prepare new project/proposal,Observational/Empirical (Type),0.06
-229,Prepare new project/proposal,Experimental (Type),0.25
-230,Prepare new project/proposal,Simulation (Type),0.41
-231,Prepare new project/proposal,Derived/Compiled (Type),0.05
-232,Prepare new project/proposal,Other Types,
-233,Prepare new project/proposal,Basis for new study,0.02
-234,Prepare new project/proposal,Calibration,0.26
-235,Prepare new project/proposal,Benchmarking,0.23
-236,Prepare new project/proposal,Verification,0.32
-237,Prepare new project/proposal,Input,0.21
-238,Prepare new project/proposal,Generating new ideas,0.3
-239,Prepare new project/proposal,Teaching,0.02
+228,Prepare new project/proposal,Observational/Empirical (Type),0.28
+229,Prepare new project/proposal,Experimental (Type),0.14
+230,Prepare new project/proposal,Simulation (Type),0.14
+231,Prepare new project/proposal,Derived/Compiled (Type),0.12
+232,Prepare new project/proposal,Other Types,0.0
+233,Prepare new project/proposal,Basis for new study,0.03
+234,Prepare new project/proposal,Calibration,0.04
+235,Prepare new project/proposal,Benchmarking,0.17
+236,Prepare new project/proposal,Verification,0.18
+237,Prepare new project/proposal,Input,0.04
+238,Prepare new project/proposal,Generating new ideas,0.03
+239,Prepare new project/proposal,Teaching,0.14
 240,Prepare new project/proposal,Prepare new project/proposal,1.0
-241,Prepare new project/proposal,Experimental Use,0.33
-242,Prepare new project/proposal,Identifying trends/predictions,0.04
-243,Prepare new project/proposal,Comparison,0.13
-244,Prepare new project/proposal,Summarizations,0.22
-245,Prepare new project/proposal,Integrate with other data,0.04
+241,Prepare new project/proposal,Experimental Use,0.02
+242,Prepare new project/proposal,Identifying trends/predictions,0.03
+243,Prepare new project/proposal,Comparison,0.32
+244,Prepare new project/proposal,Summarizations,0.12
+245,Prepare new project/proposal,Integrate with other data,0.22
 246,Prepare new project/proposal,Other Uses,
-247,Experimental Use,Observational/Empirical (Type),0.42
-248,Experimental Use,Experimental (Type),0.11
-249,Experimental Use,Simulation (Type),0.39
-250,Experimental Use,Derived/Compiled (Type),0.19
-251,Experimental Use,Other Types,
-252,Experimental Use,Basis for new study,0.01
-253,Experimental Use,Calibration,0.12
-254,Experimental Use,Benchmarking,0.09
-255,Experimental Use,Verification,0.03
-256,Experimental Use,Input,0.27
-257,Experimental Use,Generating new ideas,0.47
-258,Experimental Use,Teaching,0.25
-259,Experimental Use,Prepare new project/proposal,0.33
+247,Experimental Use,Observational/Empirical (Type),0.12
+248,Experimental Use,Experimental (Type),0.03
+249,Experimental Use,Simulation (Type),0.16
+250,Experimental Use,Derived/Compiled (Type),0.11
+251,Experimental Use,Other Types,0.12
+252,Experimental Use,Basis for new study,0.14
+253,Experimental Use,Calibration,0.21
+254,Experimental Use,Benchmarking,0.07
+255,Experimental Use,Verification,0.16
+256,Experimental Use,Input,0.01
+257,Experimental Use,Generating new ideas,0.01
+258,Experimental Use,Teaching,0.13
+259,Experimental Use,Prepare new project/proposal,0.02
 260,Experimental Use,Experimental Use,1.0
-261,Experimental Use,Identifying trends/predictions,0.45
-262,Experimental Use,Comparison,0.1
-263,Experimental Use,Summarizations,0.17
-264,Experimental Use,Integrate with other data,0.15
+261,Experimental Use,Identifying trends/predictions,0.12
+262,Experimental Use,Comparison,0.15
+263,Experimental Use,Summarizations,0.14
+264,Experimental Use,Integrate with other data,0.16
 265,Experimental Use,Other Uses,
-266,Identifying trends/predictions,Observational/Empirical (Type),0.39
-267,Identifying trends/predictions,Experimental (Type),0.71
-268,Identifying trends/predictions,Simulation (Type),0.41
-269,Identifying trends/predictions,Derived/Compiled (Type),0.27
-270,Identifying trends/predictions,Other Types,
-271,Identifying trends/predictions,Basis for new study,0.34
-272,Identifying trends/predictions,Calibration,0.15
-273,Identifying trends/predictions,Benchmarking,0.16
-274,Identifying trends/predictions,Verification,0.33
-275,Identifying trends/predictions,Input,0.63
-276,Identifying trends/predictions,Generating new ideas,0.49
-277,Identifying trends/predictions,Teaching,0.05
-278,Identifying trends/predictions,Prepare new project/proposal,0.04
-279,Identifying trends/predictions,Experimental Use,0.45
+266,Identifying trends/predictions,Observational/Empirical (Type),0.22
+267,Identifying trends/predictions,Experimental (Type),0.16
+268,Identifying trends/predictions,Simulation (Type),0.1
+269,Identifying trends/predictions,Derived/Compiled (Type),0.04
+270,Identifying trends/predictions,Other Types,0.08
+271,Identifying trends/predictions,Basis for new study,0.16
+272,Identifying trends/predictions,Calibration,0.19
+273,Identifying trends/predictions,Benchmarking,0.11
+274,Identifying trends/predictions,Verification,0.03
+275,Identifying trends/predictions,Input,0.15
+276,Identifying trends/predictions,Generating new ideas,0.05
+277,Identifying trends/predictions,Teaching,0.27
+278,Identifying trends/predictions,Prepare new project/proposal,0.03
+279,Identifying trends/predictions,Experimental Use,0.12
 280,Identifying trends/predictions,Identifying trends/predictions,1.0
-281,Identifying trends/predictions,Comparison,0.25
-282,Identifying trends/predictions,Summarizations,0.01
-283,Identifying trends/predictions,Integrate with other data,0.21
+281,Identifying trends/predictions,Comparison,0.3
+282,Identifying trends/predictions,Summarizations,0.2
+283,Identifying trends/predictions,Integrate with other data,0.04
 284,Identifying trends/predictions,Other Uses,
-285,Comparison,Observational/Empirical (Type),0.07
-286,Comparison,Experimental (Type),0.1
-287,Comparison,Simulation (Type),0.04
-288,Comparison,Derived/Compiled (Type),0.35
-289,Comparison,Other Types,
-290,Comparison,Basis for new study,0.07
-291,Comparison,Calibration,0.05
-292,Comparison,Benchmarking,0.23
-293,Comparison,Verification,0.39
+285,Comparison,Observational/Empirical (Type),0.2
+286,Comparison,Experimental (Type),0.05
+287,Comparison,Simulation (Type),0.23
+288,Comparison,Derived/Compiled (Type),0.07
+289,Comparison,Other Types,0.03
+290,Comparison,Basis for new study,0.23
+291,Comparison,Calibration,0.1
+292,Comparison,Benchmarking,0.09
+293,Comparison,Verification,0.25
 294,Comparison,Input,0.05
-295,Comparison,Generating new ideas,0.26
-296,Comparison,Teaching,0.08
-297,Comparison,Prepare new project/proposal,0.13
-298,Comparison,Experimental Use,0.1
-299,Comparison,Identifying trends/predictions,0.25
+295,Comparison,Generating new ideas,0.08
+296,Comparison,Teaching,0.09
+297,Comparison,Prepare new project/proposal,0.32
+298,Comparison,Experimental Use,0.15
+299,Comparison,Identifying trends/predictions,0.3
 300,Comparison,Comparison,1.0
-301,Comparison,Summarizations,0.59
-302,Comparison,Integrate with other data,0.12
+301,Comparison,Summarizations,0.05
+302,Comparison,Integrate with other data,0.09
 303,Comparison,Other Uses,
-304,Summarizations,Observational/Empirical (Type),0.15
-305,Summarizations,Experimental (Type),0.3
-306,Summarizations,Simulation (Type),0.04
-307,Summarizations,Derived/Compiled (Type),0.33
-308,Summarizations,Other Types,
-309,Summarizations,Basis for new study,0.13
-310,Summarizations,Calibration,0.26
-311,Summarizations,Benchmarking,0.13
-312,Summarizations,Verification,0.51
+304,Summarizations,Observational/Empirical (Type),0.18
+305,Summarizations,Experimental (Type),0.16
+306,Summarizations,Simulation (Type),0.11
+307,Summarizations,Derived/Compiled (Type),0.26
+308,Summarizations,Other Types,0.13
+309,Summarizations,Basis for new study,0.09
+310,Summarizations,Calibration,0.04
+311,Summarizations,Benchmarking,0.03
+312,Summarizations,Verification,0.12
 313,Summarizations,Input,0.14
-314,Summarizations,Generating new ideas,0.09
-315,Summarizations,Teaching,0.18
-316,Summarizations,Prepare new project/proposal,0.22
-317,Summarizations,Experimental Use,0.17
-318,Summarizations,Identifying trends/predictions,0.01
-319,Summarizations,Comparison,0.59
+314,Summarizations,Generating new ideas,0.02
+315,Summarizations,Teaching,0.04
+316,Summarizations,Prepare new project/proposal,0.12
+317,Summarizations,Experimental Use,0.14
+318,Summarizations,Identifying trends/predictions,0.2
+319,Summarizations,Comparison,0.05
 320,Summarizations,Summarizations,1.0
-321,Summarizations,Integrate with other data,0.18
+321,Summarizations,Integrate with other data,0.13
 322,Summarizations,Other Uses,
-323,Integrate with other data,Observational/Empirical (Type),0.09
-324,Integrate with other data,Experimental (Type),0.2
-325,Integrate with other data,Simulation (Type),0.08
-326,Integrate with other data,Derived/Compiled (Type),0.78
-327,Integrate with other data,Other Types,
-328,Integrate with other data,Basis for new study,0.06
-329,Integrate with other data,Calibration,0.09
-330,Integrate with other data,Benchmarking,0.09
-331,Integrate with other data,Verification,0.15
-332,Integrate with other data,Input,0.07
-333,Integrate with other data,Generating new ideas,0.0
-334,Integrate with other data,Teaching,0.19
-335,Integrate with other data,Prepare new project/proposal,0.04
-336,Integrate with other data,Experimental Use,0.15
-337,Integrate with other data,Identifying trends/predictions,0.21
-338,Integrate with other data,Comparison,0.12
-339,Integrate with other data,Summarizations,0.18
+323,Integrate with other data,Observational/Empirical (Type),0.55
+324,Integrate with other data,Experimental (Type),0.12
+325,Integrate with other data,Simulation (Type),0.17
+326,Integrate with other data,Derived/Compiled (Type),0.02
+327,Integrate with other data,Other Types,0.13
+328,Integrate with other data,Basis for new study,0.33
+329,Integrate with other data,Calibration,0.13
+330,Integrate with other data,Benchmarking,0.17
+331,Integrate with other data,Verification,0.28
+332,Integrate with other data,Input,0.25
+333,Integrate with other data,Generating new ideas,0.24
+334,Integrate with other data,Teaching,0.29
+335,Integrate with other data,Prepare new project/proposal,0.22
+336,Integrate with other data,Experimental Use,0.16
+337,Integrate with other data,Identifying trends/predictions,0.04
+338,Integrate with other data,Comparison,0.09
+339,Integrate with other data,Summarizations,0.13
 340,Integrate with other data,Integrate with other data,1.0
 341,Integrate with other data,Other Uses,
 342,Other Uses,Observational/Empirical (Type),
