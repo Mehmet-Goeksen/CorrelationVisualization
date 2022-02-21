@@ -1,4 +1,5 @@
 appnope==0.1.2
+argcomplete==2.0.0
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 arrow==1.2.1
@@ -18,10 +19,15 @@ cycler==0.10.0
 debugpy==1.5.0
 decorator==5.1.0
 defusedxml==0.7.1
-Django==4.0
-django-tailwind==3.0.1
+dj-database-url==0.5.0
+Django==3.2.11
+django-heroku==0.3.1
+django-tailwind==2.2.2
 entrypoints==0.3
+gunicorn==20.1.0
 idna==3.3
+importlib-metadata==4.10.0
+importlib-resources==5.4.0
 ipykernel==6.4.1
 ipython==7.28.0
 ipython-genutils==0.2.0
@@ -61,6 +67,7 @@ platformdirs==2.4.0
 poyo==0.5.0
 prometheus-client==0.12.0
 prompt-toolkit==3.0.20
+psycopg2==2.7.7
 ptyprocess==0.7.0
 pycparser==2.21
 Pygments==2.10.0
@@ -85,9 +92,12 @@ threadpoolctl==3.0.0
 toml==0.10.2
 tornado==6.1
 traitlets==5.1.0
+typed-ast==1.5.1
 typing_extensions==4.0.1
 urllib3==1.26.7
 wcwidth==0.2.5
 webencodings==0.5.1
+whitenoise==5.3.0
 widgetsnbextension==3.5.2
 wrapt==1.13.3
+zipp==3.7.0

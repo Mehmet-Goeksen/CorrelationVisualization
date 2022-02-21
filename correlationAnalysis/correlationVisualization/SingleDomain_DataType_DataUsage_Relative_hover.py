@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # define functions to get top correlations
+# Code copied
 #https://stackoverflow.com/questions/17778394/list-highest-correlation-pairs-from-a-large-correlation-matrix-in-pandas
 def get_redundant_pairs(df):
     '''Get diagonal and lower triangular pairs of correlation matrix'''
@@ -52,7 +53,7 @@ def plotHeatmap(domain, amount):
     elif domain == "disc_pharma": domainName = "Pharmacology and Toxicology"
     elif domain == "disc_physics": domainName = "Physics"
     elif domain == "disc_psych": domainName = "Psychology"
-    elif domain == "disc_socsci": domainName = "Scoial Sciences"
+    elif domain == "disc_socsci": domainName = "Social Sciences"
     elif domain == "disc_vet": domainName = "Veterinary"
     elif domain == "disc_infosci": domainName = "Information Science"
     elif domain == "disc_other": domainName = "Other"
