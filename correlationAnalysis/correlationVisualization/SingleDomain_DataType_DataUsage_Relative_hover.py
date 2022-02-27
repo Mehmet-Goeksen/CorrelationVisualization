@@ -53,7 +53,7 @@ def plotHeatmap(domain, amount):
     elif domain == "disc_pharma": domainName = "Pharmacology and Toxicology"
     elif domain == "disc_physics": domainName = "Physics"
     elif domain == "disc_psych": domainName = "Psychology"
-    elif domain == "disc_socsci": domainName = "Social Sciences"
+    elif domain == "disc_socsci": domainName = "Social Science"
     elif domain == "disc_vet": domainName = "Veterinary"
     elif domain == "disc_infosci": domainName = "Information Science"
     elif domain == "disc_other": domainName = "Other"
